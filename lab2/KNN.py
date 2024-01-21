@@ -3,7 +3,6 @@ from sklearn.model_selection import KFold
 from sklearn.model_selection import cross_val_score
 from sklearn.neighbors import KNeighborsClassifier
 
-# Load datasets
 breast_cancer = datasets.load_breast_cancer()
 wine = datasets.load_wine()
 digits = datasets.load_digits()
